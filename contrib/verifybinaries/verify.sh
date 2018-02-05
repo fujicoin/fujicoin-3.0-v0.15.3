@@ -23,7 +23,7 @@ TMPFILE="hashes.tmp"
 
 SIGNATUREFILENAME="SHA256SUMS.asc"
 RCSUBDIR="test"
-HOST1="https://fujicoincore.org"
+HOST1="https://bitcoincore.org"
 HOST2="https://fujicoin.org"
 BASEDIR="/bin/"
 VERSIONPREFIX="fujicoin-core-"

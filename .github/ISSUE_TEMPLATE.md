@@ -4,7 +4,7 @@ This issue tracker is only for technical issues related to fujicoin-core.
 
 General fujicoin questions and/or support requests and are best directed to the [Fujicoin StackExchange](https://fujicoin.stackexchange.com).
 
-For reporting security issues, please read instructions at [https://fujicoincore.org/en/contact/](https://fujicoincore.org/en/contact/).
+For reporting security issues, please read instructions at [https://bitcoincore.org/en/contact/](https://bitcoincore.org/en/contact/).
 
 ### Describe the issue
 

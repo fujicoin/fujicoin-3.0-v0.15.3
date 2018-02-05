@@ -3,7 +3,7 @@ Fujicoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/fujicoin/fujicoin.svg?branch=master)](https://travis-ci.org/fujicoin/fujicoin)
 
-https://fujicoincore.org
+https://bitcoincore.org
 
 What is Fujicoin?
 ----------------
@@ -16,7 +16,7 @@ software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
 the Fujicoin Core software, see https://fujicoin.org/en/download, or read the
-[original whitepaper](https://fujicoincore.org/fujicoin.pdf).
+[original whitepaper](https://bitcoincore.org/fujicoin.pdf).
 
 License
 -------
