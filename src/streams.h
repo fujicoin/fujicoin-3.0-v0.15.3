@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
+// Copyright (c) 2009-2016 The Fujicoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_STREAMS_H
-#define BITCOIN_STREAMS_H
+#ifndef FUJICOIN_STREAMS_H
+#define FUJICOIN_STREAMS_H
 
 #include "support/allocators/zeroafterfree.h"
 #include "serialize.h"
@@ -706,4 +706,4 @@ public:
     }
 };
 
-#endif // BITCOIN_STREAMS_H
+#endif // FUJICOIN_STREAMS_H

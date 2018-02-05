@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
+// Copyright (c) 2009-2016 The Fujicoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,11 +7,11 @@
  * Server/client environment: argument handling, config file parsing,
  * logging, thread wrappers, startup time
  */
-#ifndef BITCOIN_UTIL_H
-#define BITCOIN_UTIL_H
+#ifndef FUJICOIN_UTIL_H
+#define FUJICOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitcoin-config.h"
+#include "config/fujicoin-config.h"
 #endif
 
 #include "compat.h"
@@ -53,8 +53,8 @@ extern bool fLogIPs;
 extern std::atomic<bool> fReopenDebugLog;
 extern CTranslationInterface translationInterface;
 
-extern const char * const BITCOIN_CONF_FILENAME;
-extern const char * const BITCOIN_PID_FILENAME;
+extern const char * const FUJICOIN_CONF_FILENAME;
+extern const char * const FUJICOIN_PID_FILENAME;
 
 extern std::atomic<uint32_t> logCategories;
 
@@ -294,7 +294,7 @@ void RenameThread(const char* name);
  */
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
-    std::string s = strprintf("bitcoin-%s", name);
+    std::string s = strprintf("fujicoin-%s", name);
     RenameThread(s.c_str());
     try
     {
@@ -319,4 +319,4 @@ template <typename Callable> void TraceThread(const char* name,  Callable func)
 
 std::string CopyrightHolders(const std::string& strPrefix);
 
-#endif // BITCOIN_UTIL_H
+#endif // FUJICOIN_UTIL_H

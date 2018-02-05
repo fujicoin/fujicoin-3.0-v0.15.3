@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/bitcoin
-src/bitcoind
-src/bitcoin-cli
-src/bitcoin-tx
-src/test/test_bitcoin
-src/test/test_bitcoin_fuzzy
-src/qt/test/test_bitcoin-qt
+src/fujicoin
+src/fujicoind
+src/fujicoin-cli
+src/fujicoin-tx
+src/test/test_fujicoin
+src/test/test_fujicoin_fuzzy
+src/qt/test/test_fujicoin-qt
 
 # autoreconf
 Makefile.in
@@ -30,8 +30,8 @@ config.log
 config.status
 configure
 libtool
-src/config/bitcoin-config.h
-src/config/bitcoin-config.h.in
+src/config/fujicoin-config.h
+src/config/fujicoin-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -74,12 +74,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-bitcoin-qt
-Bitcoin-Qt.app
+fujicoin-qt
+Fujicoin-Qt.app
 
 # Unit-tests
 Makefile.test
-bitcoin-qt_test
+fujicoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -92,7 +92,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_bitcoin.coverage/
+test_fujicoin.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -107,5 +107,5 @@ test/cache/*
 
 /doc/doxygen/
 
-libbitcoinconsensus.pc
+libfujicoinconsensus.pc
 contrib/devtools/split-debug.sh

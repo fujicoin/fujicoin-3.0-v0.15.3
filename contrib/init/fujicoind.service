@@ -1,15 +1,15 @@
 [Unit]
-Description=Bitcoin's distributed currency daemon
+Description=Fujicoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=bitcoin
-Group=bitcoin
+User=fujicoin
+Group=fujicoin
 
 Type=forking
-PIDFile=/var/lib/bitcoind/bitcoind.pid
-ExecStart=/usr/bin/bitcoind -daemon -pid=/var/lib/bitcoind/bitcoind.pid \
--conf=/etc/bitcoin/bitcoin.conf -datadir=/var/lib/bitcoind -disablewallet
+PIDFile=/var/lib/fujicoind/fujicoind.pid
+ExecStart=/usr/bin/fujicoind -daemon -pid=/var/lib/fujicoind/fujicoind.pid \
+-conf=/etc/fujicoin/fujicoin.conf -datadir=/var/lib/fujicoind -disablewallet
 
 Restart=always
 PrivateTmp=true

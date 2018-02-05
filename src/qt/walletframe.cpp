@@ -1,10 +1,10 @@
-// Copyright (c) 2011-2016 The Bitcoin Core developers
+// Copyright (c) 2011-2016 The Fujicoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "walletframe.h"
 
-#include "bitcoingui.h"
+#include "fujicoingui.h"
 #include "walletview.h"
 
 #include <cstdio>
@@ -12,7 +12,7 @@
 #include <QHBoxLayout>
 #include <QLabel>
 
-WalletFrame::WalletFrame(const PlatformStyle *_platformStyle, BitcoinGUI *_gui) :
+WalletFrame::WalletFrame(const PlatformStyle *_platformStyle, FujicoinGUI *_gui) :
     QFrame(_gui),
     gui(_gui),
     platformStyle(_platformStyle)
@@ -44,7 +44,7 @@ bool WalletFrame::addWallet(const QString& name, WalletModel *walletModel)
         return false;
 
     WalletView *walletView = new WalletView(platformStyle, this);
-    walletView->setBitcoinGUI(gui);
+    walletView->setFujicoinGUI(gui);
     walletView->setClientModel(clientModel);
     walletView->setWalletModel(walletModel);
     walletView->showOutOfSyncWarning(bOutOfSync);

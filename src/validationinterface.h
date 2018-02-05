@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
+// Copyright (c) 2009-2016 The Fujicoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_VALIDATIONINTERFACE_H
-#define BITCOIN_VALIDATIONINTERFACE_H
+#ifndef FUJICOIN_VALIDATIONINTERFACE_H
+#define FUJICOIN_VALIDATIONINTERFACE_H
 
 #include <memory>
 
@@ -95,4 +95,4 @@ public:
 
 CMainSignals& GetMainSignals();
 
-#endif // BITCOIN_VALIDATIONINTERFACE_H
+#endif // FUJICOIN_VALIDATIONINTERFACE_H

@@ -1,6 +1,6 @@
-usr/local/bin/bitcoin-qt usr/bin
-share/pixmaps/bitcoin32.xpm usr/share/pixmaps
-share/pixmaps/bitcoin16.xpm usr/share/pixmaps
-share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/bitcoin-qt.desktop usr/share/applications
-debian/bitcoin-qt.protocol usr/share/kde4/services/
+usr/local/bin/fujicoin-qt usr/bin
+share/pixmaps/fujicoin32.xpm usr/share/pixmaps
+share/pixmaps/fujicoin16.xpm usr/share/pixmaps
+share/pixmaps/fujicoin128.png usr/share/pixmaps
+debian/fujicoin-qt.desktop usr/share/applications
+debian/fujicoin-qt.protocol usr/share/kde4/services/
