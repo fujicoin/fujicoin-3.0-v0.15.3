@@ -75,11 +75,11 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 210000;
-        consensus.BIP34Height = 2800000;
-        consensus.BIP34Hash = uint256S("0x1f5353f137b5e3f0e45d5643843ba452ac84bb6470ba608eae71994f0be87412");
-        consensus.BIP65Height = 2800000;
-        consensus.BIP66Height = 2800000;
+        consensus.nSubsidyHalvingInterval = 210000; //fujicoin do not use
+        consensus.BIP34Height = 0;
+        consensus.BIP34Hash = uint256S("0xadb6d9cfd74075e7f91608add4bd2a2ea636f70856183086842667a1597714a0");
+        // consensus.BIP65Height = 0;
+        // consensus.BIP66Height = 0;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 1.4 * 24 * 60 * 60; //1.4 days
         consensus.nPowTargetSpacing = 1.0 * 60;
@@ -103,7 +103,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1554076800; // Apr 1st, 2019 (UTC)
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100010");
+        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000048095ae8a7742");
 
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0xe775a240c6e6d358ce523ba754aa5607a2c6a60c7bf08080557952a5f44a2bb9"); //1866650
