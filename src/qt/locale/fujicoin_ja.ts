@@ -1,93 +1,95 @@
-<TS language="ja" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ja">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>右クリックでアドレスまたはラベルを編集します</translation>
+        <translation>編集するにはアドレスまたはラベルを右クリックします</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>新規アドレスの作成</translation>
+        <translation>新しいアドレスを作成します</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>新規(&amp;N)</translation>
+        <translation>新規</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>現在選択されているアドレスをシステムのクリップボードにコピーする</translation>
+        <translation>選択されているアドレスをクリップボードにコピーします</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>コピー(&amp;C)</translation>
+        <translation>コピー</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>閉じる(&amp;C)</translation>
+        <translation>閉じる</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>選択されたアドレスを一覧から削除する</translation>
+        <translation>選択中のアドレスをリストから削除します</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>ファイルに現在のタブのデータをエクスポート</translation>
+        <translation>このタブにあるデータをファイルに出力します</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>エクスポート (&amp;E)</translation>
+        <translation>エクスポート</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>削除(&amp;D)</translation>
+        <translation>削除</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>先のアドレスを選択</translation>
+        <translation>送金先のアドレスを選択する</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>支払いを受け取るアドレスを指定する</translation>
+        <translation>コインを受取るアドレスを選択する</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>選択 (&amp;C)</translation>
+        <translation>選択</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>送金用</translation>
+        <translation>送金先アドレス</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>受け取りアドレス</translation>
+        <translation>受取用アドレス</translation>
     </message>
     <message>
         <source>These are your Fujicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>これらは支払いを送信するためのあなたの Fujicoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
+        <translation>送金先の富士コインアドレスです。コインを送付する前に金額とアドレスを確認してください。</translation>
     </message>
     <message>
         <source>These are your Fujicoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>これらは支払いを受け取るための富士コインアドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
+        <translation>受取に使用する富士コインアドレスです。毎回新規のアドレスを使用することを推奨します。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>アドレスをコピー (&amp;C)</translation>
+        <translation>アドレスをコピーする</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>ラベルをコピー (&amp;L)</translation>
+        <translation>ラベルをコピーする</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>編集 (&amp;E)</translation>
+        <translation>編集する</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>アドレス帳をエクスポート</translation>
+        <translation>アドレス帳をエクスポートする</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>テキスト CSV (*.csv)</translation>
+        <translation>CSV形式のファイル(*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -121,7 +123,7 @@
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>パスフレーズを入力</translation>
+        <translation>パスフレーズを入力する</translation>
     </message>
     <message>
         <source>New passphrase</source>
@@ -129,19 +131,19 @@
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>新しいパスフレーズをもう一度</translation>
+        <translation>新しいパスフレーズの確認</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>ウォレットの新しいパスフレーズを入力してください。&lt;br/&gt;&lt;b&gt;10文字以上のランダムな文字&lt;/b&gt;で構成されたものか、&lt;b&gt;8単語以上の単語&lt;/b&gt;で構成されたパスフレーズを使用してください。</translation>
+        <translation>新しいパスフレーズを入力してください。&lt;br/&gt;&lt;b&gt;10文字以上のランダムな文字&lt;/b&gt;で構成されたものか、&lt;b&gt;8個以上の英単語&lt;/b&gt;で構成されたパスフレーズを使用してください。</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>ウォレットを暗号化する</translation>
+        <translation>ウォレットの暗号化</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>この操作はウォレットをアンロックするためにパスフレーズが必要です。</translation>
+        <translation>ウォレットをアンロックするにはパスフレーズが必要です。</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -149,7 +151,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>この操作はウォレットの暗号化解除のためにパスフレーズが必要です。</translation>
+        <translation type="unfinished">ウォレットの暗号化を解除するにはパスフレーズが必要です。</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -157,11 +159,11 @@
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>パスフレーズの変更</translation>
+        <translation type="unfinished">パスフレーズを変更する</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>ウォレットの古いパスフレーズおよび新しいパスフレーズを入力してください。</translation>
+        <translation type="unfinished">古いパスフレーズおよび新しいパスフレーズを入力してください。</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -169,11 +171,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FUJICOINS&lt;/b&gt;!</source>
-        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Fujicoin はすべて失われます&lt;/b&gt;!</translation>
+        <translation type="unfinished">警告：　ウォレットを暗号化した後にパスフレーズを忘れてしまった場合、&lt;b&gt;あなたの富士コインはすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>本当にウォレットを暗号化しますか?</translation>
+        <translation type="unfinished">本当にウォレットを暗号化しますか？</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -181,11 +183,11 @@
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fujicoins from being stolen by malware infecting your computer.</source>
-        <translation>暗号化処理を完了させるため %1 をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによる富士コインの盗難から完全に守ることはできないことにご注意ください。</translation>
+        <translation type="unfinished">暗号化の処理を完了させるため %1 をいますぐ終了します。ウォレットの暗号化は、コンピュータに感染したマルウェアなどによる富士コインの盗難から完全に守ることはできないことにご注意ください。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要: 過去のウォレット ファイルのバックアップは、暗号化された新しいウォレット ファイルに取り替える必要があります。セキュリティ上の理由により、暗号化された新しいウォレットを使い始めると、暗号化されていないウォレット ファイルのバックアップはすぐに使えなくなります。</translation>
+        <translation type="unfinished">重要： セキュリティ上の理由により暗号化されていないウォレットのバックアップは使えなくなります。暗号化された新しいウォレットでバックアップし直して下さい。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -197,7 +199,7 @@
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>パスフレーズが同じではありません。</translation>
+        <translation type="unfinished">パスフレーズが違います。</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
@@ -205,7 +207,7 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>ウォレットの暗号化解除のパスフレーズが正しくありません。</translation>
+        <translation type="unfinished">暗号化解除のパスフレーズが違います。</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -213,11 +215,11 @@
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>ウォレットのパスフレーズの変更が成功しました。</translation>
+        <translation type="unfinished">パスフレーズが変更されました。</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告: Caps Lock キーがオンになっています!</translation>
+        <translation type="unfinished">警告：　Caps Lock キーがオンになっています！</translation>
     </message>
 </context>
 <context>
@@ -228,22 +230,22 @@
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>以下の時間までbanする:</translation>
+        <translation type="unfinished">Banの期限</translation>
     </message>
 </context>
 <context>
     <name>FujicoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>メッセージの署名... (&amp;m)</translation>
+        <translation type="unfinished">メッセージの署名...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>ネットワークに同期中……</translation>
+        <translation type="unfinished">ネットワークに同期中...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>概要(&amp;O)</translation>
+        <translation type="unfinished">概要</translation>
     </message>
     <message>
         <source>Node</source>
@@ -255,15 +257,15 @@
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>取引(&amp;T)</translation>
+        <translation type="unfinished">取引</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>取引履歴を閲覧</translation>
+        <translation type="unfinished">取引履歴を閲覧する</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>終了(&amp;E)</translation>
+        <translation type="unfinished">終了</translation>
     </message>
     <message>
         <source>Quit application</source>
@@ -271,15 +273,15 @@
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>%1 について (&amp;A)</translation>
+        <translation type="unfinished">%1 について</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>%1 の情報を表示</translation>
+        <translation type="unfinished">%1 の情報を表示する</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Qt について(&amp;Q)</translation>
+        <translation type="unfinished">Qt について</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
@@ -287,7 +289,7 @@
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>オプション... (&amp;O)</translation>
+        <translation type="unfinished">オプション...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -295,63 +297,63 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>ウォレットの暗号化... (&amp;E)</translation>
+        <translation type="unfinished">ウォレットの暗号化...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>ウォレットのバックアップ... (&amp;B)</translation>
+        <translation type="unfinished">ウォレットのバックアップ...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>パスフレーズの変更... (&amp;C)</translation>
+        <translation type="unfinished">パスフレーズの変更...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>送金先アドレス一覧 (&amp;S)...</translation>
+        <translation type="unfinished">送金先アドレス一覧...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>受け取り用アドレス一覧 (&amp;R)...</translation>
+        <translation type="unfinished">受取用アドレス一覧...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>URI を開く (&amp;U)...</translation>
+        <translation type="unfinished">URI を開く...</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>クリックするとネットワーク活動を無効化します。</translation>
+        <translation type="unfinished">クリックしてネットワークを無効化する。</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>ネットワーク活動は無効化されました。</translation>
+        <translation type="unfinished">ネットワークは無効化されました。</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>クリックするとネットワーク活動を再び有効化します。</translation>
+        <translation type="unfinished">クリックしてネットワークを有効化する。</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>未知。ヘッダを同期しています (%1%)...</translation>
+        <translation type="unfinished">ヘッダを同期しています (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>ディスク上のブロックのインデックスを再作成中...</translation>
+        <translation type="unfinished">ブロックチェーンのインデックスを再作成中...</translation>
     </message>
     <message>
         <source>Send coins to a Fujicoin address</source>
-        <translation>Fujicoin アドレスにコインを送る</translation>
+        <translation>富士コインアドレスにコインを送る</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>ウォレットを他の場所にバックアップ</translation>
+        <translation type="unfinished">ウォレットを他の場所にバックアップする</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>ウォレット暗号化用パスフレーズの変更</translation>
+        <translation type="unfinished">暗号化のパスフレーズを変更する</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>デバッグ ウインドウ (&amp;D)</translation>
+        <translation type="unfinished">デバッグ ウインドウ</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
@@ -359,11 +361,11 @@
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>メッセージの検証... (&amp;V)</translation>
+        <translation type="unfinished">メッセージの検証...</translation>
     </message>
     <message>
         <source>Fujicoin</source>
-        <translation>Fujicoin</translation>
+        <translation type="unfinished">富士コイン</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -371,95 +373,99 @@
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>送金 (&amp;S)</translation>
+        <translation type="unfinished">送信</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>入金 (&amp;R)</translation>
+        <translation type="unfinished">受信</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>見る/隠す (&amp;S)</translation>
+        <translation type="unfinished">表示 / 非表示</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>メイン ウインドウを表示または非表示</translation>
+        <translation type="unfinished">メイン ウインドウを表示または非表示にする</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>あなたのウォレットの秘密鍵を暗号化します</translation>
+        <translation type="unfinished">秘密鍵を暗号化する</translation>
     </message>
     <message>
         <source>Sign messages with your Fujicoin addresses to prove you own them</source>
-        <translation>あなたが所有していることを証明するために、あなたの Fujicoin アドレスでメッセージに署名してください</translation>
+        <translation type="unfinished">所有権を証明するために取引に署名する</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Fujicoin addresses</source>
-        <translation>指定された Fujicoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
+        <translation type="unfinished">署名を確認するために取引を検証する</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>ファイル(&amp;F)</translation>
+        <translation type="unfinished">ファイル</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>設定(&amp;S)</translation>
+        <translation type="unfinished">設定</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>ヘルプ(&amp;H)</translation>
+        <translation type="unfinished">ヘルプ</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>タブツールバー</translation>
+        <translation type="unfinished">タブ ツールバー</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and fujicoin: URIs)</source>
-        <translation>支払いを要求する (QRコードとfujicoin:ではじまるURIを生成する)</translation>
+        <translation type="unfinished">支払いを請求する (QRコードと富士コインURIを生成する)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>使用済みの送金用アドレスとラベルの一覧を表示する</translation>
+        <translation type="unfinished">使用した送金先アドレスとラベルの一覧を表示する</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>支払いを受け取るアドレスとラベルのリストを表示する</translation>
+        <translation type="unfinished">使用した受取用アドレスとラベルのリストを表示する</translation>
     </message>
     <message>
         <source>Open a fujicoin: URI or payment request</source>
-        <translation>fujicoin: URIまたは支払いリクエストを開く</translation>
+        <translation type="unfinished">富士コインURIまたは支払い請求を開く</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>コマンドラインオプション (&amp;C)</translation>
+        <translation type="unfinished">コマンドラインオプション</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Fujicoin network</source>
-        <translation><numerusform>%n の Fujicoin ネットワークへのアクティブな接続</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>アクティブな接続数：%n</numerusform>
+        </translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>ディスク上のブロックのインデックスを作成しています...</translation>
+        <translation type="unfinished">ブロックチェーンのインデックスを作成しています...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>ディスク上のブロックを処理しています...</translation>
+        <translation type="unfinished">ブロックチェーンを処理しています...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>トランザクション履歴の %n ブロックを処理しました。</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>%n ブロックを処理しました。</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 遅延</translation>
+        <translation type="unfinished">%1 の遅延</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>最後に受信されたブロックは %1 前に生成されました。</translation>
+        <translation type="unfinished">最後に受信されたブロックは %1 前に生成されたものです。</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>この後の取引はまだ表示されません。</translation>
+        <translation type="unfinished">これの後の取引はまだ表示されません。</translation>
     </message>
     <message>
         <source>Error</source>
@@ -479,7 +485,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Fujicoin command-line options</source>
-        <translation>有効な Fujicoin のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
+        <translation type="unfinished">コマンドライン オプションを見るために %1 のヘルプメッセージを表示する</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -487,57 +493,56 @@
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>ピアに接続しています...</translation>
+        <translation type="unfinished">ピアに接続しています...</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>追跡中...</translation>
+        <translation type="unfinished">キャッチアップ中...</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>日付: %1
-</translation>
+        <translation type="unfinished">日付： %1</translation>
     </message>
     <message>
         <source>Amount: %1
 </source>
-        <translation>総額: %1
+        <translation type="unfinished">金額： %1
 </translation>
     </message>
     <message>
         <source>Type: %1
 </source>
-        <translation>タイプ: %1
+        <translation type="unfinished">タイプ： %1
 </translation>
     </message>
     <message>
         <source>Label: %1
 </source>
-        <translation>ラベル: %1
+        <translation type="unfinished">ラベル： %1
 </translation>
     </message>
     <message>
         <source>Address: %1
 </source>
-        <translation>アドレス: %1
+        <translation type="unfinished">アドレス： %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>送金取引</translation>
+        <translation type="unfinished">送金済み</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>着金取引</translation>
+        <translation type="unfinished">受信した取引</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD鍵生成は&lt;b&gt;有効化&lt;/b&gt;されています</translation>
+        <translation type="unfinished">HD鍵生成は&lt;b&gt;有効&lt;/b&gt;です</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>HD鍵生成は&lt;b&gt;無効化&lt;/b&gt;されています</translation>
+        <translation type="unfinished">HD鍵生成は&lt;b&gt;無効&lt;/b&gt;です</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -549,46 +554,46 @@
     </message>
     <message>
         <source>A fatal error occurred. Fujicoin can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。Fujicoin は安全に継続することができず終了するでしょう。</translation>
+        <translation type="unfinished">致命的なエラーが発生しました。まもなく終了します。</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>コイン選択</translation>
+        <translation type="unfinished">コインの選択</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>数量:</translation>
+        <translation type="unfinished">数量：</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>バイト:</translation>
+        <translation type="unfinished">バイト：</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>総額:</translation>
+        <translation type="unfinished">金額：</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>手数料:</translation>
+        <translation type="unfinished">手数料：</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>ダスト：</translation>
+        <translation type="unfinished">ダスト：</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>手数料差引後:</translation>
+        <translation type="unfinished">手数料差引後：</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>釣り銭:</translation>
+        <translation type="unfinished">お釣り：</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>すべて選択/選択解除</translation>
+        <translation type="unfinished">すべて選択/解除</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -600,15 +605,15 @@
     </message>
     <message>
         <source>Amount</source>
-        <translation>総額</translation>
+        <translation type="unfinished">金額</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>ラベルに対する入金一覧</translation>
+        <translation type="unfinished">ラベル</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>アドレスに対する入金一覧</translation>
+        <translation type="unfinished">アドレス</translation>
     </message>
     <message>
         <source>Date</source>
@@ -632,19 +637,19 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>総額のコピー</translation>
+        <translation type="unfinished">金額をコピーする</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>取引 ID をコピー</translation>
+        <translation type="unfinished">取引IDをコピーする</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>未使用トランザクションをロックする</translation>
+        <translation type="unfinished">未使用のものをロックする</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>未使用トランザクションをアンロックする</translation>
+        <translation type="unfinished">未使用のものをアンロックする</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -656,7 +661,7 @@
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>手数料差引後の値をコピーする</translation>
+        <translation type="unfinished">手数料差引後の金額をコピーする</translation>
     </message>
     <message>
         <source>Copy bytes</source>
@@ -668,7 +673,7 @@
     </message>
     <message>
         <source>Copy change</source>
-        <translation>釣り銭をコピー</translation>
+        <translation type="unfinished">お釣りをコピーする</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
@@ -684,7 +689,7 @@
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>少なくともひとつの受取額が現在のダスト閾値を下回る場合にはこのラベルは赤くなります。</translation>
+        <translation type="unfinished">現在のダスト閾値を下回る金額を受け取るとこのラベルは赤くなります。</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
@@ -696,58 +701,58 @@
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>%1 (%2) からのおつり</translation>
+        <translation type="unfinished">%1 (%2) からのお釣り</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(おつり)</translation>
+        <translation type="unfinished">(お釣り)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>アドレスの編集</translation>
+        <translation type="unfinished">アドレスを編集する</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>ラベル(&amp;L)</translation>
+        <translation type="unfinished">ラベル</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>このアドレス帳項目に結びつけられているラベル</translation>
+        <translation type="unfinished">このアドレス帳の項目に紐付いているラベル</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>このアドレス帳項目に結びつけられているアドレス。この項目は送金用アドレスの場合のみ編集することができます。</translation>
+        <translation type="unfinished">このアドレス帳の項目に紐付いているラベル。この項目は送金用アドレスの場合のみ編集することができます。</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>アドレス帳 (&amp;A)</translation>
+        <translation type="unfinished">アドレス</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>新しい受信アドレス</translation>
+        <translation>新しい受取用アドレス</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>新しい送信アドレス</translation>
+        <translation>新しい送金先アドレス</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>入金アドレスを編集</translation>
+        <translation type="unfinished">受取用アドレスを編集する</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>送信アドレスを編集</translation>
+        <translation type="unfinished">送金先アドレスを編集する</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Fujicoin address.</source>
-        <translation>入力されたアドレス "%1" は無効な Fujicoin アドレスです。</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Fujicoin address.</source>
+        <translation type="unfinished">入力されたアドレス &quot;%1&quot; は無効な富士コインアドレスです。</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>入力されたアドレス "%1" は既にアドレス帳にあります。</translation>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
+        <translation>入力されたアドレス &quot;%1&quot; は既にアドレス帳にあります。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -755,22 +760,22 @@
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>新しいキーの生成に失敗しました。</translation>
+        <translation type="unfinished">新しい鍵の生成に失敗しました。</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>新しいデータ ディレクトリが作成されます。</translation>
+        <translation type="unfinished">新しいデータディレクトリが作成されます。</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>name</translation>
+        <translation type="unfinished">名前</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>ディレクトリがもうあります。 新しいのディレクトリを作るつもりなら%1を書いてください。</translation>
+        <translation type="unfinished">既存のディレクトリがあります。 新しいディレクトリを作るには %1 を追加してください。</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
@@ -778,7 +783,7 @@
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>ここにデータ ディレクトリを作成することはできません。</translation>
+        <translation type="unfinished">ここにデータディレクトリを作成することはできません。</translation>
     </message>
 </context>
 <context>
@@ -789,7 +794,7 @@
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1ビット)</translation>
+        <translation type="unfinished">(%1 ビット)</translation>
     </message>
     <message>
         <source>About %1</source>
@@ -801,7 +806,7 @@
     </message>
     <message>
         <source>Usage:</source>
-        <translation>使用法:</translation>
+        <translation type="unfinished">使用法：</translation>
     </message>
     <message>
         <source>command-line options</source>
@@ -809,15 +814,15 @@
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>UIオプション:</translation>
+        <translation type="unfinished">UIオプション：</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>起動時にデータ ディレクトリを選ぶ (初期値: %u)</translation>
+        <translation type="unfinished">起動時にデータディレクトリを選ぶ (初期値： %u)</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>言語設定 例: "de_DE" (初期値: システムの言語)</translation>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation type="unfinished">言語設定 例： &quot;de_DE&quot; (初期値： システムの言語)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -825,15 +830,15 @@
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>支払いリクエスト用にSSLルート証明書を設定する (デフォルト：-system-)</translation>
+        <translation type="unfinished">支払い請求用にSSLルート証明書を設定する (初期値：-system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>起動時にスプラッシュ画面を表示する (初期値: %u)</translation>
+        <translation type="unfinished">起動時にスプラッシュ画面を表示する (初期値： %u)</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
-        <translation>GUI で行われた設定の変更を全てリセット</translation>
+        <translation type="unfinished">設定の変更を全てリセットする</translation>
     </message>
 </context>
 <context>
@@ -848,23 +853,23 @@
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>これはプログラム最初の起動です。%1 がデータを保存する場所を選択して下さい。</translation>
+        <translation type="unfinished">プログラム最初の起動です。%1 がデータを保存する場所を選択して下さい。</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Fujicoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 は、富士コインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも %2 ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
+        <translation type="unfinished">%1 は富士コインのブロックチェーンのコピーをダウンロードして保存します。少なくとも %2 ギガバイトのデータがこのディレクトリに保存されます。データは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>初期値のデータ ディレクトリを使用</translation>
+        <translation type="unfinished">既定のデータディレクトリを使用する</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>任意のデータ ディレクトリを使用:</translation>
+        <translation type="unfinished">任意のデータディレクトリを使用する</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>エラー: 指定のデータディレクトリ "%1" を作成できません。</translation>
+        <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
+        <translation type="unfinished">エラー： 指定のデータディレクトリ &quot;%1&quot; を作成できません。</translation>
     </message>
     <message>
         <source>Error</source>
@@ -872,11 +877,15 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GBの空き容量が利用可能</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>%n GBの空き容量が利用可能です</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(%n GB必要)</numerusform></translation>
+        <translation>
+            <numerusform>(%n GB必要)</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -886,12 +895,12 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the fujicoin network, as detailed below.</source>
-        <translation>確認できない最近のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度富士コインネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the fujicoin network, as detailed below.</source>
+        <translation type="unfinished">最近の取引はまだ確認できません。ウォレットの残高は正しくない可能性があります。この情報は富士コインネットワークへの同期が完了すると正しくなります。詳細は下記を参照してください。</translation>
     </message>
     <message>
         <source>Attempting to spend fujicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>まだ表示されていないトランザクションが影響する富士コインを使用しようとすると、ネットワークから認証がなされないでしょう。</translation>
+        <translation type="unfinished">まだ表示されていない取引が影響する富士コインを使用すると、ネットワークにて認証されません。</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -899,7 +908,7 @@
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>未知...</translation>
+        <translation type="unfinished">不明...</translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -907,15 +916,15 @@
     </message>
     <message>
         <source>Progress</source>
-        <translation>進捗</translation>
+        <translation type="unfinished">進捗状況</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>進捗状況は一時間ごとに増加します</translation>
+        <translation type="unfinished">進捗状況は１時間ごとに増加します</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>計算しています...</translation>
+        <translation type="unfinished">計算中...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
@@ -923,34 +932,34 @@
     </message>
     <message>
         <source>Hide</source>
-        <translation>隠す</translation>
+        <translation type="unfinished">非表示</translation>
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>未知。ヘッダを同期しています (%1)...</translation>
+        <translation type="unfinished">不明： ヘッダを同期しています (%1)...</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>URI を開く</translation>
+        <translation type="unfinished">URI を開く</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>URI またはファイルから支払いリクエストを開く</translation>
+        <translation type="unfinished">URI またはファイルから支払い請求を開く</translation>
     </message>
     <message>
         <source>URI:</source>
-        <translation>URI:</translation>
+        <translation type="unfinished">URI: </translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>支払いリクエストファイルを選択してください</translation>
+        <translation type="unfinished">支払い請求ファイルを選択する</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>開きたい支払いリクエストファイルを選択してください</translation>
+        <translation type="unfinished">開きたい支払い請求ファイルを選択する</translation>
     </message>
 </context>
 <context>
@@ -961,19 +970,19 @@
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>メイン (&amp;M)</translation>
+        <translation type="unfinished">メイン</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation>システムにログインした際、自動的に %1 を起動する。</translation>
+        <translation type="unfinished">システムにログイン後に自動的に %1 を起動する。</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
-        <translation>システムにログインした時に %1 を起動 (&amp;S)</translation>
+        <translation type="unfinished">システムにログインした時に %1 を起動する</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>データベースキャッシュのサイズ (&amp;D)</translation>
+        <translation type="unfinished">データベースキャッシュのサイズ</translation>
     </message>
     <message>
         <source>MB</source>
@@ -981,7 +990,7 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>スクリプト検証用スレッド数 (&amp;V)</translation>
+        <translation type="unfinished">スクリプト検証用スレッド数</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -993,35 +1002,35 @@
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>プロキシのIPアドレス (例えば IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation type="unfinished">プロキシのIPアドレス (例： IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>ウィンドウを閉じる際にアプリケーションを終了するのではなく、最小化します。このオプションが有効化された場合、メニューから終了を選択した場合にのみアプリケーションは閉じられます。</translation>
+        <translation type="unfinished">ウィンドウを閉じる際に終了するのではなく最小化します。このオプションが有効化された場合、メニューから終了を選択した場合のみアプリケーションは終了します。</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>トランザクションタブのコンテキストメニュー項目に表示する、サードパーティURL (例えばブロックエクスプローラ)。URL中の%sはトランザクションのハッシュ値に置き換えられます。垂直バー | で区切ることで、複数のURLを指定できます。</translation>
+        <translation type="unfinished">取引タブのコンテキストメニュー項目に表示するサードパーティURL (例えばブロックエクスプローラ)。URL中の%sはトランザクションのハッシュ値に置き換えられます。&quot;|&quot; で区切ることで複数のURLを指定できます。</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>サードパーティのトランザクションURL</translation>
+        <translation type="unfinished">サードパーティの取引URL</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>上のオプションを置き換えることのできる、有効なコマンドラインオプションの一覧:</translation>
+        <translation type="unfinished">上のオプションを置き換えるコマンドラインオプション：</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>すべてのオプションを初期値に戻します。</translation>
+        <translation type="unfinished">全てのオプションを初期値に戻します。</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>オプションをリセット (&amp;R)</translation>
+        <translation type="unfinished">オプションをリセットする</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>ネットワーク (&amp;N)</translation>
+        <translation type="unfinished">ネットワーク</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1029,7 +1038,7 @@
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>ウォレット (&amp;A)</translation>
+        <translation type="unfinished">ウォレット</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -1037,39 +1046,39 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>コインコントロール機能を有効化する (&amp;C)</translation>
+        <translation type="unfinished">コインコントロール機能を有効化する</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>未検証のおつりの使用を無効化すると、トランザクションが少なくとも1検証を獲得するまではそのトランザクションのおつりは利用できなくなります。これは残高の計算方法にも影響します。</translation>
+        <translation type="unfinished">未検証のお釣りの使用を無効化すると、取引が少なくとも1検証を獲得するまではその取引のお釣りは利用できなくなります。これは残高の計算方法にも影響します。</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>未検証のおつりを使用する (&amp;S)</translation>
+        <translation type="unfinished">未検証のお釣りを使用する</translation>
     </message>
     <message>
         <source>Automatically open the Fujicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーター上の Fujicoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+        <translation type="unfinished">富士コインクライアント用のルーターのポートを自動的に開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>UPnP を使ってポートを割り当てる (&amp;U)</translation>
+        <translation type="unfinished">UPnP を使ってポートを割り当てる</translation>
     </message>
     <message>
         <source>Connect to the Fujicoin network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 プロキシ経由でFujicoinネットワークに接続する</translation>
+        <translation type="unfinished">SOCKS5 プロクシ経由で富士コインネットワークに接続する</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>SOCKS5 プロキシ経由で接続する (デフォルトプロキシ): (&amp;C)</translation>
+        <translation type="unfinished">SOCKS5 プロクシ経由で接続する (デフォルトプロクシ)：</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>プロキシの IP (&amp;I) :</translation>
+        <translation type="unfinished">プロクシの IP：</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>ポート (&amp;P) :</translation>
+        <translation type="unfinished">ポート：</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
@@ -1077,7 +1086,7 @@
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>ピアへ到達するために使われた方法:</translation>
+        <translation type="unfinished">ピアへ到達するために使われた方法：</translation>
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
@@ -1097,51 +1106,51 @@
     </message>
     <message>
         <source>Connect to the Fujicoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でFujicoinネットワークに接続する</translation>
+        <translation type="unfinished">Tor秘匿サービスを利用するため、独立したSOCKS5プロクシ経由で富士コインネットワークに接続する</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Tor秘匿サービス経由でピアに到達するため、独立なSOCKS5プロキシを利用する:</translation>
+        <translation type="unfinished">Tor秘匿サービス経由でピアに到達するため、独立したSOCKS5プロクシを使用する：</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>ウインドウ (&amp;W)</translation>
+        <translation type="unfinished">ウインドウ</translation>
     </message>
     <message>
         <source>&amp;Hide the icon from the system tray.</source>
-        <translation>システムトレイのアイコンを隠す (&amp;H)</translation>
+        <translation type="unfinished">システムトレイのアイコンを隠す</translation>
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>トレイアイコンを隠す</translation>
+        <translation type="unfinished">トレイのアイコンを隠す</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>ウインドウを最小化したあとトレイ アイコンだけを表示する。</translation>
+        <translation type="unfinished">ウインドウを最小化した時だけトレイアイコンを表示する。</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>タスクバーの代わりにトレイに最小化 (&amp;M)</translation>
+        <translation type="unfinished">タスクバーではなくトレイに最小化する</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>閉じる時に最小化 (&amp;i)</translation>
+        <translation type="unfinished">閉じる時に最小化する</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>表示 (&amp;D)</translation>
+        <translation type="unfinished">表示</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>ユーザインターフェースの言語 (&amp;l) :</translation>
+        <translation type="unfinished">ユーザインターフェースの言語：</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>ここでユーザインターフェースの言語を設定できます。設定を反映するには %1 を再起動します。</translation>
+        <translation type="unfinished">ここでユーザインターフェースの言語を設定できます。この設定は %1 を再起動後に反映されます。</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>額を表示する単位 (&amp;U) :</translation>
+        <translation type="unfinished">金額を表示する単位：</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
@@ -1149,23 +1158,23 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>コインコントロール機能を表示するかどうか。</translation>
+        <translation type="unfinished">コインコントロール機能を表示するか否か。</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation type="unfinished">OK</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>キャンセル (&amp;C)</translation>
+        <translation type="unfinished">キャンセル</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>初期値</translation>
+        <translation type="unfinished">既定値</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>なし</translation>
+        <translation type="unfinished">なし</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
@@ -1173,7 +1182,7 @@
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>変更を有効化するにはクライアントを再起動する必要があります。</translation>
+        <translation type="unfinished">変更を有効にするにはクライアントを再起動する必要があります。</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
@@ -1196,35 +1205,35 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fujicoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Fujicoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+        <translation type="unfinished">表示された情報は古いものです。接続が確立されるとウォレットは富士コインネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>監視限定:</translation>
+        <translation type="unfinished">監視限定：</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>利用可能:</translation>
+        <translation type="unfinished">利用可能：</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>あなたの利用可能残高</translation>
+        <translation type="unfinished">利用可能残高</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>検証待ち:</translation>
+        <translation type="unfinished">検証待ち：</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>未検証の取引で利用可能残高に反映されていない数</translation>
+        <translation type="unfinished">残高に反映されていない未検証の取引の合計</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>未完成:</translation>
+        <translation type="unfinished">検証不足：</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>完成していない採掘された残高</translation>
+        <translation type="unfinished">検証不足の採掘残高</translation>
     </message>
     <message>
         <source>Balances</source>
@@ -1232,46 +1241,46 @@
     </message>
     <message>
         <source>Total:</source>
-        <translation>合計:</translation>
+        <translation type="unfinished">合計：</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>あなたの現在の残高</translation>
+        <translation type="unfinished">現在の合計残高</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>監視限定アドレス内の現在の残高</translation>
+        <translation type="unfinished">監視限定アドレスの残高</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>使用可能:</translation>
+        <translation type="unfinished">使用可能：</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>最近のトランザクション</translation>
+        <translation type="unfinished">最近の取引</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>監視限定アドレスに対する未検証のトランザクション</translation>
+        <translation type="unfinished">監視限定アドレスの未検証取引</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>ウォッチオンリーアドレスの採掘された残高のうち、成熟していないもの</translation>
+        <translation type="unfinished">監視限定アドレスにおける検証不足の採掘残高</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>監視限定アドレス内の現在の全残高</translation>
+        <translation type="unfinished">監視限定アドレスの合計残高</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>支払いのリクエストのエラーです</translation>
+        <translation type="unfinished">支払い請求のエラー</translation>
     </message>
     <message>
         <source>Cannot start fujicoin: click-to-pay handler</source>
-        <translation>Fujicoin を起動できません: click-to-pay handler</translation>
+        <translation type="unfinished">富士コインを起動できません： click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1279,51 +1288,51 @@
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>支払い要求の取得先URLが無効です: %1</translation>
+        <translation type="unfinished">支払い請求URLが無効です： %1</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>支払いのアドレス「%1」は無効です</translation>
+        <translation type="unfinished">支払いアドレスが無効です： %1</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Fujicoin address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な Fujicoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
+        <translation type="unfinished">URI を解析できません！ 無効な富士コインアドレスあるいは不正な形式のパラメーターが原因です。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>支払いリクエストファイルを処理しています</translation>
+        <translation type="unfinished">支払い請求ファイルを処理しています</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>支払いリクエストファイルを読み込めませんでした！無効な支払いリクエストファイルにより引き起こされた可能性があります。</translation>
+        <translation type="unfinished">支払い請求ファイルを読み込めません！ 支払い請求ファイルが不正です。</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>支払い要求は拒否されました</translation>
+        <translation type="unfinished">支払い請求が拒否されました</translation>
     </message>
     <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>支払いリクエストのネットワークは現在のクライアントのネットワークに一致しません。</translation>
+        <source>Payment request network doesn&apos;t match client network.</source>
+        <translation type="unfinished">支払い請求のネットワークがクライアントのネットワークに適合しません。</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>支払いリクエストの期限が切れました。</translation>
+        <translation type="unfinished">支払い請求が期限切れです。</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>支払いリクエストは開始されていません。</translation>
+        <translation type="unfinished">支払い請求は初期化されていません。</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>カスタム支払いスクリプトに対する、検証されていない支払いリクエストはサポートされていません。</translation>
+        <translation type="unfinished">検証されていないカスタム支払いスクリプトに対する支払い請求はサポートされていません。</translation>
     </message>
     <message>
         <source>Invalid payment request.</source>
-        <translation>無効な支払いリクエスト。</translation>
+        <translation type="unfinished">無効な支払い請求。</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>要求された支払額 %1 は少なすぎます (ダストとみなされてしまいます)。</translation>
+        <translation type="unfinished">要求された支払額 %1 は少な過ぎます (ダストとみなされます)。</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1331,19 +1340,19 @@
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>支払リクエスト %1 は大きすぎます（%2バイトですが、%3バイトまでが許されています）。</translation>
+        <translation type="unfinished">支払リクエスト %1 は大き過ぎます（%2バイトですが、%3バイトまでが許されています）。</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>%1: %2とコミュニケーション・エラーです</translation>
+        <translation type="unfinished">%1 とのコミュニケーション・エラーです： %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>支払リクエストを読み込めませんでした！</translation>
+        <translation type="unfinished">支払請求を読み込めませんでした！</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>サーバーの返事は無効 %1</translation>
+        <translation type="unfinished">サーバーからの無効な反応： %1</translation>
     </message>
     <message>
         <source>Network request error</source>
@@ -1351,18 +1360,18 @@
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>支払いは確認しました</translation>
+        <translation type="unfinished">支払いは確認されました</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
-        <translation>ユーザエージェント</translation>
+        <translation type="unfinished">ユーザーエージェント</translation>
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>ノード・サービス</translation>
+        <translation type="unfinished">ノード / サービス</translation>
     </message>
     <message>
         <source>NodeId</source>
@@ -1377,27 +1386,27 @@
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>総額</translation>
+        <translation type="unfinished">金額</translation>
     </message>
     <message>
         <source>Enter a Fujicoin address (e.g. %1)</source>
-        <translation>Fujicoinアドレスを入力してください (例 %1)</translation>
+        <translation type="unfinished">富士コインアドレスを入力してください (例 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1日</translation>
+        <translation type="unfinished">%1 日</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 h</translation>
+        <translation type="unfinished">%1 時間</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 m</translation>
+        <translation type="unfinished">%1 分</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1秒</translation>
+        <translation type="unfinished">%1 秒</translation>
     </message>
     <message>
         <source>None</source>
@@ -1409,27 +1418,37 @@
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1ミリ秒</translation>
+        <translation type="unfinished">%1 ミリ秒</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n 秒</numerusform></translation>
+        <translation>
+            <numerusform>%n 秒</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n 分</numerusform></translation>
+        <translation>
+            <numerusform>%n 分</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n 時間</numerusform></translation>
+        <translation>
+            <numerusform>%n 時間</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n 日</numerusform></translation>
+        <translation>
+            <numerusform>%n 日</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n 週間</numerusform></translation>
+        <translation>
+            <numerusform>%n 週間</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -1437,45 +1456,47 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n 年</numerusform></translation>
+        <translation>
+            <numerusform>%n 年</numerusform>
+        </translation>
     </message>
     <message>
-        <source>%1 didn't yet exit safely...</source>
-        <translation>%1 はまだ安全に終了していません...</translation>
+        <source>%1 didn&apos;t yet exit safely...</source>
+        <translation type="unfinished">%1 はまだ安全に終了していません...</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>エラー: 指定のデータ ディレクトリ "%1" は存在しません。</translation>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="unfinished">エラー： 指定のデータディレクトリ &quot;%1&quot; は存在しません。</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>エラー: 設定ファイルをパースできません: %1。key=value という記法のみを利用してください。</translation>
+        <translation type="unfinished">エラー： 設定ファイルを解析できません： %1。key=value という記法のみを使用してください。</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>エラー: %1</translation>
+        <translation type="unfinished">エラー： %1</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>画像を保存(&amp;S)</translation>
+        <translation type="unfinished">画像を保存する</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>画像をコピー(&amp;C)</translation>
+        <translation type="unfinished">画像をコピーする</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>QR コードの保存</translation>
+        <translation type="unfinished">QR コードを保存する</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG画像ファイル(*.png)</translation>
+        <translation type="unfinished">PNG画像 (*.png)</translation>
     </message>
 </context>
 <context>
@@ -1490,19 +1511,19 @@
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>情報 (&amp;I)</translation>
+        <translation type="unfinished">情報</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>デバッグ ウインドウ</translation>
+        <translation type="unfinished">デバッグウインドウ</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>一般</translation>
+        <translation type="unfinished">概要</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>使用中のBerkleyDBバージョン</translation>
+        <translation type="unfinished">BerkleyDBバージョン</translation>
     </message>
     <message>
         <source>Datadir</source>
@@ -1518,7 +1539,7 @@
     </message>
     <message>
         <source>Name</source>
-        <translation>名前</translation>
+        <translation type="unfinished">名称</translation>
     </message>
     <message>
         <source>Number of connections</source>
@@ -1526,7 +1547,7 @@
     </message>
     <message>
         <source>Block chain</source>
-        <translation>ブロック チェーン</translation>
+        <translation type="unfinished">ブロックチェーン</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
@@ -1534,7 +1555,7 @@
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>メモリ・プール</translation>
+        <translation type="unfinished">メモリプール</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
@@ -1546,15 +1567,15 @@
     </message>
     <message>
         <source>Received</source>
-        <translation>受取</translation>
+        <translation type="unfinished">受信</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>送金</translation>
+        <translation type="unfinished">送信</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>ピア (&amp;P)</translation>
+        <translation type="unfinished">ピア</translation>
     </message>
     <message>
         <source>Banned peers</source>
@@ -1562,11 +1583,11 @@
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>詳しい情報を見たいピアを選択してください。</translation>
+        <translation type="unfinished">詳しい情報を見たいピアを選択する。</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>ホワイトリスト</translation>
+        <translation type="unfinished">ホワイトリスト登録</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -1598,11 +1619,11 @@
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation>文字サイズを縮小</translation>
+        <translation type="unfinished">文字サイズを縮小する</translation>
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>文字サイズを拡大</translation>
+        <translation type="unfinished">文字サイズを拡大する</translation>
     </message>
     <message>
         <source>Services</source>
@@ -1630,7 +1651,7 @@
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>現在実行中のpingにかかっている時間。</translation>
+        <translation type="unfinished">現在未完了のpingの継続時間。</translation>
     </message>
     <message>
         <source>Ping Wait</source>
@@ -1638,11 +1659,11 @@
     </message>
     <message>
         <source>Min Ping</source>
-        <translation>最小 Ping</translation>
+        <translation type="unfinished">最小の Ping 時間</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>時間オフセット</translation>
+        <translation type="unfinished">オフセット時間</translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -1650,19 +1671,19 @@
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>開く (&amp;O)</translation>
+        <translation type="unfinished">開く</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>コンソール (&amp;C)</translation>
+        <translation type="unfinished">コンソール</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>ネットワーク (&amp;N)</translation>
+        <translation type="unfinished">ネットワークトラフィック</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>クリア(&amp;C)</translation>
+        <translation type="unfinished">クリア</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1670,11 +1691,11 @@
     </message>
     <message>
         <source>In:</source>
-        <translation>入力:</translation>
+        <translation type="unfinished">In:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>出力:</translation>
+        <translation type="unfinished">Out:</translation>
     </message>
     <message>
         <source>Debug log file</source>
@@ -1686,31 +1707,31 @@
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1時間 (&amp;H)</translation>
+        <translation type="unfinished">1時間</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1日 (&amp;D)</translation>
+        <translation type="unfinished">1日</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1週間 (&amp;W)</translation>
+        <translation type="unfinished">1週間</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1年 (&amp;Y)</translation>
+        <translation type="unfinished">1年</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>
-        <translation>切断 (&amp;D)</translation>
+        <translation type="unfinished">切断</translation>
     </message>
     <message>
         <source>Ban for</source>
-        <translation>Banする:</translation>
+        <translation type="unfinished">Banする</translation>
     </message>
     <message>
         <source>&amp;Unban</source>
-        <translation>Banを解除する (&amp;U)</translation>
+        <translation type="unfinished">Banを解除する</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
@@ -1718,7 +1739,7 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>上下の矢印で履歴をたどれます。 &lt;b&gt;Ctrl-L&lt;/b&gt; でスクリーンを消去できます。</translation>
+        <translation type="unfinished">上下の矢印で履歴をたどれます。 &lt;b&gt;Ctrl-L&lt;/b&gt; でスクリーンをクリアできます。</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1726,11 +1747,11 @@
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>警告: 詐欺師が活動しており、ユーザに対してここにコマンドを入力させることでウォレットの中身を盗もうとしています。コマンドの結果を完全に理解していない限り、このコンソールは利用しないでください。</translation>
+        <translation type="unfinished">警告： 詐欺師が活動しており、ここにコマンドを入力させることでウォレットの中身を盗もうとしています。コマンドの結果を完全に理解していない限り、このコンソールは利用しないでください。</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>ネットワーク活動は無効化されました</translation>
+        <translation type="unfinished">ネットワーク接続は無効化されました</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1750,62 +1771,62 @@
     </message>
     <message>
         <source>(node id: %1)</source>
-        <translation>(ノードID: %1)</translation>
+        <translation type="unfinished">(ノードID： %1)</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>%1経由</translation>
+        <translation type="unfinished">%1 経由</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>一度もなし</translation>
+        <translation type="unfinished">なし</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>内向き</translation>
+        <translation type="unfinished">インバウンド</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>外向き</translation>
+        <translation type="unfinished">アウトバウンド</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>はい</translation>
+        <translation type="unfinished">Yes</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>いいえ</translation>
+        <translation type="unfinished">No</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>未知</translation>
+        <translation type="unfinished">不明</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>総額:(&amp;A)</translation>
+        <translation type="unfinished">金額：</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>ラベル(&amp;L):</translation>
+        <translation type="unfinished">ラベル：</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>メッセージ (&amp;M):</translation>
+        <translation type="unfinished">メッセージ：</translation>
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation>以前利用した受取用アドレスのどれかを再利用します。アドレスの再利用はセキュリティおよびプライバシーにおいて問題があります。以前作成した支払リクエストを再生成するとき以外は利用しないでください。</translation>
+        <translation type="unfinished">以前使用した受取用アドレスのどれかを再利用します。アドレスの再利用はセキュリティおよびプライバシーにおいて問題があります。以前作成した支払リクエストを再生成するとき以外は使用しないでください。</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>既存の受取用アドレスを再利用する (非推奨) (&amp;E)</translation>
+        <translation type="unfinished">既存の受取用アドレスを再利用する (非推奨)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Fujicoin network.</source>
-        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはFujicoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
+        <translation type="unfinished">支払請求を開いた時に表示される任意のメッセージです。注意： このメッセージは支払実行時に富士コインネットワークに送信されるものではありません。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1813,43 +1834,43 @@
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>このフォームを使用して支払のリクエストを行いましょう。すべての項目は&lt;b&gt;任意入力&lt;/b&gt;です。</translation>
+        <translation type="unfinished">このフォームを使用して支払請求を行います。すべての項目は&lt;b&gt;任意入力&lt;/b&gt;です。</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>リクエストする任意の金額。特定の金額をリクエストするのでない場合には、この欄は空白のままかゼロにしてください。</translation>
+        <translation type="unfinished">請求金額。請求金額が未定の場合は空白かゼロにしてください。</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>全ての入力項目をクリア</translation>
+        <translation type="unfinished">全ての入力項目をクリアする</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>クリア</translation>
+        <translation type="unfinished">クリアする</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>支払リクエスト履歴</translation>
+        <translation type="unfinished">支払請求の履歴</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>支払をリクエストする (&amp;R)</translation>
+        <translation type="unfinished">支払請求を表示する</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>選択されたリクエストを表示する（項目をダブルクリックすることでも表示できます）</translation>
+        <translation type="unfinished">選択された請求を表示する（各請求をダブルクリックしても表示できます）</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>表示</translation>
+        <translation type="unfinished">表示する</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>リストから選択項目を削除</translation>
+        <translation type="unfinished">リストから選択項目を削除する</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>削除</translation>
+        <translation type="unfinished">削除する</translation>
     </message>
     <message>
         <source>Copy URI</source>
@@ -1865,7 +1886,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>総額のコピー</translation>
+        <translation type="unfinished">金額をコピーする</translation>
     </message>
 </context>
 <context>
@@ -1876,23 +1897,23 @@
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>URI をコピーする (&amp;U)</translation>
+        <translation type="unfinished">URI をコピーする</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>アドレスをコピーする (&amp;A)</translation>
+        <translation type="unfinished">アドレスをコピーする</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>画像を保存(&amp;S)</translation>
+        <translation type="unfinished">画像を保存する</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>%1 への支払いリクエストを行う</translation>
+        <translation type="unfinished">%1 への支払請求</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>支払い情報</translation>
+        <translation type="unfinished">支払請求内容</translation>
     </message>
     <message>
         <source>URI</source>
@@ -1904,7 +1925,7 @@
     </message>
     <message>
         <source>Amount</source>
-        <translation>総額</translation>
+        <translation type="unfinished">金額</translation>
     </message>
     <message>
         <source>Label</source>
@@ -1920,7 +1941,7 @@
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>QR コード用の URI エンコードでエラー。</translation>
+        <translation type="unfinished">QRコードへのエンコードに失敗しました。</translation>
     </message>
 </context>
 <context>
@@ -1951,7 +1972,7 @@
     </message>
     <message>
         <source>Requested</source>
-        <translation>要求</translation>
+        <translation type="unfinished">請求金額</translation>
     </message>
 </context>
 <context>
@@ -1966,7 +1987,7 @@
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>入力...</translation>
+        <translation type="unfinished">入力...</translation>
     </message>
     <message>
         <source>automatically selected</source>
@@ -1978,67 +1999,67 @@
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>数量:</translation>
+        <translation type="unfinished">入力数：</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>バイト:</translation>
+        <translation type="unfinished">バイト：</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>総額:</translation>
+        <translation type="unfinished">金額：</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>手数料:</translation>
+        <translation type="unfinished">手数料：</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>手数料差引後:</translation>
+        <translation type="unfinished">手数料差引後：</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>釣り銭:</translation>
+        <translation type="unfinished">お釣り：</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>これが有効にもかかわらずおつりアドレスが空欄であったり無効であった場合には、おつりは新しく生成されたアドレスへ送金されます。</translation>
+        <translation>これが有効にもかかわらずお釣りアドレスが空欄であったり無効であった場合には、お釣りは新しく生成されたアドレスへ送金されます。</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>カスタムおつりアドレス</translation>
+        <translation type="unfinished">カスタムのお釣りアドレス</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>トランザクション手数料：</translation>
+        <translation type="unfinished">取引手数料：</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>選択……</translation>
+        <translation type="unfinished">設定する...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>手数料設定を折りたたむ</translation>
+        <translation type="unfinished">手数料設定を閉じる</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>1キロバイトあたり手数料</translation>
+        <translation type="unfinished">キロバイトあたりの手数料</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>カスタム手数料が1000satoshiに設定されている場合、トランザクションサイズが250バイトとすると、「1キロバイトあたり手数料」では250satoshiの手数料のみを支払いますが、「最小手数料」では1000satoshiを支払います。1キロバイトを超えるトランザクションの場合には、どちらの方法を選択したとしても1キロバイトあたりで支払われます。</translation>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 satoshis in fee, while &quot;total at least&quot; pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation type="unfinished">カスタム手数料が1000satoshiに設定されている場合、トランザクションサイズが250バイトとすると、「1キロバイトあたり手数料」では250satoshiの計算になりますが、「最小手数料」の規定により1000satoshiを支払います。1キロバイトを超えるトランザクションの場合には、どちらの方法を選択したとしても1キロバイトあたりで支払われます。</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>隠す</translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>最小手数料</translation>
+        <translation type="unfinished">最小金額</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for fujicoin transactions than the network can process.</source>
-        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどfujicoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
+        <translation type="unfinished">ブロックチェーンの容量に比べて取引の需要が少ないうちは最小手数料のみの支払で十分です。しかしネットワークが処理しきれないほど富士コインの取引需要が生じた場合には、いつまでも取引が検証されない可能性があることに注意してください。</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2046,7 +2067,7 @@
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>推奨：</translation>
+        <translation type="unfinished">推奨：</translation>
     </message>
     <message>
         <source>Custom:</source>
@@ -2054,7 +2075,7 @@
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>（スマート手数料はまだ初期化されていません。これにはおおよそ数ブロックほどかかります……）</translation>
+        <translation type="unfinished">（スマート手数料はまだ初期化されていません。）</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2066,15 +2087,15 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>一度に複数の人に送る</translation>
+        <translation type="unfinished">同時に複数のアドレスに送金する</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>受取人を追加 (&amp;R)</translation>
+        <translation type="unfinished">受取人を追加する</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>全ての入力項目をクリア</translation>
+        <translation type="unfinished">全ての入力項目をクリアする</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -2082,23 +2103,23 @@
     </message>
     <message>
         <source>Confirmation time target:</source>
-        <translation>検証時間のターゲット:</translation>
+        <translation type="unfinished">検証時間の目標：</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>すべてクリア (&amp;A)</translation>
+        <translation type="unfinished">全てクリアする</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>残高:</translation>
+        <translation type="unfinished">残高：</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>送る操作を確認する</translation>
+        <translation type="unfinished">送金取引を確認する</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>送金 (&amp;E)</translation>
+        <translation type="unfinished">送金する</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -2106,7 +2127,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>総額のコピー</translation>
+        <translation type="unfinished">金額をコピーする</translation>
     </message>
     <message>
         <source>Copy fee</source>
@@ -2126,23 +2147,23 @@
     </message>
     <message>
         <source>Copy change</source>
-        <translation>釣り銭をコピー</translation>
+        <translation type="unfinished">お釣りをコピーする</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 から %2</translation>
+        <translation type="unfinished">%1 --&gt; %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>送ってよろしいですか？</translation>
+        <translation type="unfinished">送金してよろしいですか？</translation>
     </message>
     <message>
         <source>added as transaction fee</source>
-        <translation>取引手数料として追加された</translation>
+        <translation type="unfinished">取引手数料</translation>
     </message>
     <message>
         <source>Total Amount %1</source>
-        <translation>合計：　%1</translation>
+        <translation type="unfinished">合計：　%1</translation>
     </message>
     <message>
         <source>or</source>
@@ -2150,23 +2171,23 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>コインを送る確認</translation>
+        <translation type="unfinished">送金確認</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation>受取アドレスが不正です。再チェックしてください。</translation>
+        <translation type="unfinished">受取アドレスが不正です。チェックしてください。</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>支払額は0より大きくないといけません。</translation>
+        <translation type="unfinished">送金額は0より大きい値が必要です。</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>額が残高を超えています。</translation>
+        <translation type="unfinished">送金額が残高を超えています。</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>%1 の取引手数料を含めると額が残高を超えています。</translation>
+        <translation type="unfinished">%1 の取引手数料を含めると合計が残高を超えています。</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
@@ -2174,11 +2195,11 @@
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>トラザクションの作成に失敗しました!</translation>
+        <translation type="unfinished">取引の作成に失敗しました!</translation>
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
-        <translation>トランザクションは以下の理由により拒絶されました: %1</translation>
+        <translation type="unfinished">取引は以下の理由により拒絶されました： %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
@@ -2186,11 +2207,13 @@
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>支払いリクエストの期限が切れました。</translation>
+        <translation type="unfinished">支払い請求の期限が切れました。</translation>
     </message>
     <message numerus="yes">
         <source>%n block(s)</source>
-        <translation><numerusform>%n ブロック</numerusform></translation>
+        <translation>
+            <numerusform>%n ブロック</numerusform>
+        </translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
@@ -2198,23 +2221,25 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>%n ブロック以内に検証が開始されると予想されます。</numerusform></translation>
+        <translation>
+            <numerusform>%n ブロック以内に検証が開始されると予想されます。</numerusform>
+        </translation>
     </message>
     <message>
         <source>Warning: Invalid Fujicoin address</source>
-        <translation>警告：無効なFujicoinアドレスです</translation>
+        <translation type="unfinished">警告： 無効な富士コインアドレスです</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>警告：未知のおつりアドレスです</translation>
+        <translation type="unfinished">警告： 未知のお釣りアドレスです</translation>
     </message>
     <message>
         <source>Confirm custom change address</source>
-        <translation>カスタムおつりアドレスを確認</translation>
+        <translation type="unfinished">カスタムお釣りアドレスを確認する</translation>
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>おつりとして指定されたアドレスはこのウォレットに属さないもののようです。このウォレットの一部またはすべての資産がこのアドレスへ送金されます。よろしいですか？</translation>
+        <translation type="unfinished">お釣りとして指定されたアドレスはこのウォレットに属さないものです。このウォレットの一部またはすべての資産がこのアドレスへ送金されます。よろしいですか？</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2225,27 +2250,27 @@
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>金額(&amp;A):</translation>
+        <translation type="unfinished">金額：</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>送り先(&amp;T):</translation>
+        <translation type="unfinished">送金先：</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>ラベル(&amp;L):</translation>
+        <translation type="unfinished">ラベル：</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>前に使用したアドレスを選ぶ</translation>
+        <translation type="unfinished">以前使用したアドレスを選ぶ</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>これは通常の支払です。</translation>
+        <translation type="unfinished">これは通常の送金です。</translation>
     </message>
     <message>
         <source>The Fujicoin address to send the payment to</source>
-        <translation>支払の送金先Fujicoinアドレス</translation>
+        <translation type="unfinished">送金先の富士コインアドレス</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2265,35 +2290,35 @@
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less fujicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>送金する金額から手数料が差し引かれます。受取人は数量フィールドで指定した量よりも少ない富士コインを受け取ります。受取人が複数いる場合には、手数料は均等割されます。</translation>
+        <translation type="unfinished">送金額から手数料が差し引かれます。受取人は金額フィールドで指定した額よりも少ない富士コインを受け取ります。受取人が複数いる場合には、手数料は均等割されます。</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>送金額から手数料を差し引く (&amp;U)</translation>
+        <translation type="unfinished">送金額から手数料を差し引く</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>メッセージ:</translation>
+        <translation type="unfinished">メッセージ：</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>これは未認証の支払いリクエストです。</translation>
+        <translation type="unfinished">これは未認証の支払い請求です。</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>これは認証済みの支払いリクエストです。</translation>
+        <translation type="unfinished">これは認証済みの支払い請求です。</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>このアドレスに対するラベルを入力することで、使用済みアドレスの一覧に追加することができます</translation>
+        <translation type="unfinished">このアドレスに対するラベルを入力すると送金先アドレスのリストに登録されます</translation>
     </message>
     <message>
         <source>A message that was attached to the fujicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fujicoin network.</source>
-        <translation>fujicoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはFujicoinネットワークを通して送信されるわけではありません。</translation>
+        <translation type="unfinished">富士コインURIに添付されていたメッセージです。これは参照用として取引と一緒にに記録されます。注意： このメッセージは富士コインネットワークを通して送信されるわけではありません。</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>支払先:</translation>
+        <translation type="unfinished">送金先：</translation>
     </message>
     <message>
         <source>Memo:</source>
@@ -2301,7 +2326,7 @@
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>アドレス帳に追加するには、このアドレスのラベルを入力します</translation>
+        <translation type="unfinished">アドレス帳に追加するにはこのアドレスのラベルを入力します</translation>
     </message>
 </context>
 <context>
@@ -2326,23 +2351,23 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>署名 - メッセージの署名/検証</translation>
+        <translation type="unfinished">署名 - メッセージの署名と検証</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>メッセージの署名 (&amp;S)</translation>
+        <translation type="unfinished">メッセージの署名</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive fujicoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られた富士コインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
+        <translation type="unfinished">あなたが所有しているアドレスを使用してメッセージや合意事項に署名をすることで、送金した富士コインを受け取ることが可能なことを証明できます。フィッシング攻撃により不正にあなたの識別情報で署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないように注意してください。詳細が明らかで合意可能なメッセージにのみ署名して下さい。</translation>
     </message>
     <message>
         <source>The Fujicoin address to sign the message with</source>
-        <translation>メッセージを署名するFujicoinアドレス</translation>
+        <translation type="unfinished">メッセージを署名するための富士コインアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>前に使用したアドレスを選ぶ</translation>
+        <translation type="unfinished">以前使用したアドレスを選ぶ</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2358,7 +2383,7 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>ここにあなたが署名するメッセージを入力します</translation>
+        <translation type="unfinished">ここにあなたが署名するメッセージを入力します</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2366,55 +2391,55 @@
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>現在の署名をシステムのクリップボードにコピーする</translation>
+        <translation type="unfinished">署名をクリップボードにコピーする</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Fujicoin address</source>
-        <translation>この Fujicoin アドレスを所有していることを証明するためにメッセージに署名</translation>
+        <translation type="unfinished">この富士コインアドレスを所有していることを証明するためにメッセージに署名する</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>メッセージの署名 (&amp;M)</translation>
+        <translation type="unfinished">メッセージに署名する</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>入力項目の内容をすべて消去します</translation>
+        <translation type="unfinished">全ての入力項目の内容をリセットする</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>すべてクリア (&amp;A)</translation>
+        <translation type="unfinished">全てクリアする</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>メッセージの検証 (&amp;V)</translation>
+        <translation type="unfinished">メッセージの検証</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>受取人のアドレスとメッセージ（改行やスペース、タブなども完全に一致するよう注意してください）および署名を以下に入力し、メッセージの署名を検証してください。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージに書かれていること以上の意味を署名から読み取ろうとしないよう注意してください。これは署名作成者がこのアドレスで受け取ったことを証明するだけであり、トランザクションの送信権限を証明するものではないことに注意してください！</translation>
+        <source>Enter the receiver&apos;s address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <translation type="unfinished">受取人のアドレスとメッセージ（改行やスペース、タブなども完全に一致するよう注意してください）および署名を以下に入力し、メッセージの署名を検証してください。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージに書かれていること以上の意味を署名から読み取ろうとしないよう注意してください。これは署名作成者がこのアドレスで受け取ることを証明するだけであり、トランザクションの送信権限を証明するものではないことに注意してください！</translation>
     </message>
     <message>
         <source>The Fujicoin address the message was signed with</source>
-        <translation>メッセージの署名に使われたFujicoinアドレス</translation>
+        <translation type="unfinished">メッセージの署名に使われた富士コインアドレス</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Fujicoin address</source>
-        <translation>指定された Fujicoin アドレスで署名されたことを保証するメッセージを検証</translation>
+        <translation type="unfinished">指定された富士コインアドレスで署名されたことを確認するためにメッセージを検証する</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>メッセージの検証 (&amp;M)</translation>
+        <translation type="unfinished">メッセージを検証する</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>入力項目の内容をすべて消去します</translation>
+        <translation type="unfinished">入力項目の内容を全てリセットします</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>署名を作成するには"メッセージの署名"をクリック</translation>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
+        <translation type="unfinished">署名を作成するには&quot;メッセージの署名&quot;をクリックします</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>不正なアドレスが入力されました。</translation>
+        <translation type="unfinished">入力したアドレスは不正です。</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
@@ -2422,7 +2447,7 @@
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>入力されたアドレスに関連するキーがありません。</translation>
+        <translation type="unfinished">入力されたアドレスに関連する鍵がありません。</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -2430,7 +2455,7 @@
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>入力されたアドレスのプライベート キーが無効です。</translation>
+        <translation type="unfinished">入力されたアドレスの秘密鍵が無効です。</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
@@ -2438,11 +2463,11 @@
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>メッセージに署名しました。</translation>
+        <translation type="unfinished">メッセージは署名されました。</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>署名がデコードできません。</translation>
+        <translation type="unfinished">この署名はデコードできません。</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
@@ -2450,7 +2475,7 @@
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>署名はメッセージ ダイジェストと一致しませんでした。</translation>
+        <translation type="unfinished">この署名はメッセージ ダイジェストと一致しませんでした。</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
@@ -2479,15 +2504,17 @@
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>%n 以上のブロックを開く</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>さらに %n のブロックを開く</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>ユニット %1 を開く</translation>
+        <translation type="unfinished">%1 まで開く</translation>
     </message>
     <message>
         <source>conflicted with a transaction with %1 confirmations</source>
-        <translation>%1 検証のトランザクションと衝突</translation>
+        <translation type="unfinished">%1 検証のトランザクションとコンフリクトしました</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -2495,19 +2522,19 @@
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
-        <translation>0/未検証, %1</translation>
+        <translation type="unfinished">0/未検証： %1</translation>
     </message>
     <message>
         <source>in memory pool</source>
-        <translation>メモリプール内</translation>
+        <translation type="unfinished">メモリプール内です</translation>
     </message>
     <message>
         <source>not in memory pool</source>
-        <translation>メモリプール外</translation>
+        <translation type="unfinished">メモリプール外です</translation>
     </message>
     <message>
         <source>abandoned</source>
-        <translation>中止</translation>
+        <translation type="unfinished">中止されました</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -2515,7 +2542,7 @@
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 確認</translation>
+        <translation type="unfinished">%1 検証</translation>
     </message>
     <message>
         <source>Status</source>
@@ -2523,11 +2550,13 @@
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>まだブロードキャストが成功していません</translation>
+        <translation type="unfinished">、まだブロードキャストが成功していません</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>%n ノードにブロードキャスト</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>、%n ノードにブロードキャスト</numerusform>
+        </translation>
     </message>
     <message>
         <source>Date</source>
@@ -2539,19 +2568,19 @@
     </message>
     <message>
         <source>Generated</source>
-        <translation>生成された</translation>
+        <translation type="unfinished">生成済</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>送信</translation>
+        <translation type="unfinished">From</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>未確認</translation>
+        <translation type="unfinished">不明</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>受信</translation>
+        <translation type="unfinished">To</translation>
     </message>
     <message>
         <source>own address</source>
@@ -2571,15 +2600,17 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>あと %n ブロックで成熟します</numerusform></translation>
+        <translation>
+            <numerusform>あと %n ブロックで成熟します</numerusform>
+        </translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>承認されなかった</translation>
+        <translation type="unfinished">未承認</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>引き落とし額</translation>
+        <translation type="unfinished">出金額</translation>
     </message>
     <message>
         <source>Total debit</source>
@@ -2619,11 +2650,11 @@
     </message>
     <message>
         <source>Merchant</source>
-        <translation>商人</translation>
+        <translation type="unfinished">マーチャント</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>生成されたコインは使う前に%1のブロックを完成させる必要があります。あなたが生成した時、このブロックはブロック チェーンに追加されるネットワークにブロードキャストされました。チェーンに追加されるのが失敗した場合、状態が"不承認"に変更されて使えなくなるでしょう。これは、別のノードがあなたの数秒前にブロックを生成する場合に時々起こるかもしれません。</translation>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="unfinished">生成されたコインは使う前に%1のブロックが追加される必要があります。あなたが生成した時、このブロックはブロック チェーンに追加されるべくネットワークにブロードキャストされました。チェーンに追加されるのが失敗した場合、状態が&quot;不承認&quot;に変更されて使えなくなるでしょう。これは、別のノードがあなたの数秒前にブロックを生成した場合に時々起こるかもしれません。</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2639,7 +2670,7 @@
     </message>
     <message>
         <source>Amount</source>
-        <translation>総額</translation>
+        <translation type="unfinished">金額</translation>
     </message>
     <message>
         <source>true</source>
@@ -2647,14 +2678,14 @@
     </message>
     <message>
         <source>false</source>
-        <translation>正しくない</translation>
+        <translation type="unfinished">誤り</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>ここでは取引の詳細を表示しています</translation>
+        <translation type="unfinished">取引の詳細を表示しています</translation>
     </message>
     <message>
         <source>Details for %1</source>
@@ -2677,11 +2708,13 @@
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>%n 以上のブロックを開く</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>さらに %n のブロックを開く</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>ユニット %1 を開く</translation>
+        <translation type="unfinished">%1 まで開く</translation>
     </message>
     <message>
         <source>Offline</source>
@@ -2693,7 +2726,7 @@
     </message>
     <message>
         <source>Abandoned</source>
-        <translation>中止</translation>
+        <translation type="unfinished">中止された</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
@@ -2701,19 +2734,19 @@
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>検証されました (%1 検証済み)</translation>
+        <translation type="unfinished">検証済 (%1 検証)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>衝突</translation>
+        <translation type="unfinished">コンフリクトしました</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>未成熟（%1検証。%2検証完了後に使用可能となります）</translation>
+        <translation type="unfinished">未成熟（%1 検証済。%2 検証完了後に使用可能となります）</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>このブロックは他のどのノードによっても受け取られないで、多分受け入れられないでしょう！</translation>
+        <translation type="unfinished">このブロックは他のどのノードにも受け取られないので、恐らく承認されないでしょう！</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -2721,23 +2754,23 @@
     </message>
     <message>
         <source>Received with</source>
-        <translation>送り主</translation>
+        <translation type="unfinished">受入先</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>送り主</translation>
+        <translation type="unfinished">送付元</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>送り先</translation>
+        <translation type="unfinished">送付先</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>自分自身への支払い</translation>
+        <translation type="unfinished">自分への支払い</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>発掘した</translation>
+        <translation type="unfinished">採掘されました</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -2773,14 +2806,14 @@
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>残高に追加または削除された総額。</translation>
+        <translation type="unfinished">残高に追加または削除された金額。</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>すべて</translation>
+        <translation type="unfinished">全て</translation>
     </message>
     <message>
         <source>Today</source>
@@ -2804,23 +2837,23 @@
     </message>
     <message>
         <source>Range...</source>
-        <translation>期間...</translation>
+        <translation type="unfinished">期間...</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>送り主</translation>
+        <translation type="unfinished">入金</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>送り先</translation>
+        <translation type="unfinished">送金</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>自分自身</translation>
+        <translation type="unfinished">自己</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>発掘した</translation>
+        <translation type="unfinished">採掘</translation>
     </message>
     <message>
         <source>Other</source>
@@ -2828,15 +2861,15 @@
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>検索するアドレスまたはラベルを入力</translation>
+        <translation type="unfinished">検索するアドレスまたはラベルを入力する</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>最小の額</translation>
+        <translation type="unfinished">最小金額</translation>
     </message>
     <message>
         <source>Abandon transaction</source>
-        <translation>取引の中止</translation>
+        <translation type="unfinished">取引を中止する</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -2848,27 +2881,27 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>総額のコピー</translation>
+        <translation type="unfinished">金額をコピーする</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>取引 ID をコピー</translation>
+        <translation type="unfinished">取引 ID をコピーする</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>生トランザクションをコピー</translation>
+        <translation type="unfinished">生トランザクションをコピーする</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
-        <translation>トランザクションの詳細すべてをコピー</translation>
+        <translation type="unfinished">トランザクションの詳細をコピーする</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>ラベルの編集</translation>
+        <translation type="unfinished">ラベルを編集する</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>取引の詳細を表示</translation>
+        <translation type="unfinished">取引の詳細を表示する</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
@@ -2876,7 +2909,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>テキスト CSV (*.csv)</translation>
+        <translation type="unfinished">CSV形式のファイル (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -2912,7 +2945,7 @@
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>トランザクション履歴を %1 へ保存する際にエラーが発生しました。</translation>
+        <translation type="unfinished">トランザクションの履歴を %1 へ保存する際にエラーが発生しました。</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
@@ -2920,11 +2953,11 @@
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>トランザクション履歴は正常に%1に保存されました。</translation>
+        <translation type="unfinished">トランザクションの履歴は %1 に保存されました。</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>期間:</translation>
+        <translation type="unfinished">期間：</translation>
     </message>
     <message>
         <source>to</source>
@@ -2935,40 +2968,40 @@
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>金額を表示する際の単位。クリックすることで他の単位を選択します。</translation>
+        <translation type="unfinished">金額を表示する際の単位。クリックして他の単位を選択します。</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>ウォレットがロードされていません</translation>
+        <translation type="unfinished">ウォレットがロードされていません。</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>コインを送る</translation>
+        <translation type="unfinished">送金する</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>エクスポート (&amp;E)</translation>
+        <translation type="unfinished">エクスポート</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>ファイルに現在のタブのデータをエクスポート</translation>
+        <translation type="unfinished">ファイルに現在のタブのデータをエクスポートする</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>ウォレットのバックアップ</translation>
+        <translation type="unfinished">ウォレットのバックアップ</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>ウォレット データ (*.dat)</translation>
+        <translation type="unfinished">ウォレットデータ (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
@@ -2980,11 +3013,11 @@
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>バックアップ成功</translation>
+        <translation type="unfinished">バックアップに成功しました</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>ウォレット データは正常に%1に保存されました。</translation>
+        <translation type="unfinished">ウォレット データは %1 に保存されました。</translation>
     </message>
 </context>
 <context>
@@ -3059,7 +3092,7 @@
     </message>
     <message>
         <source>Fujicoin Core</source>
-        <translation>Fujicoin のコア</translation>
+        <translation>富士コインのコア</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3086,7 +3119,7 @@
         <translation>ウォレットの全トランザクションを削除し、これらを-rescanオプションを用いることで起動時にブロックチェインのデータのみからリカバリします。</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
+        <source>Error loading %s: You can&apos;t enable HD on a already existing non-HD wallet</source>
         <translation>%s の読み込みエラー: 非HDウォレットが既に存在するため、HDウォレットを有効化できません</translation>
     </message>
     <message>
@@ -3114,7 +3147,7 @@
         <translation>ひとつのウォレットトランザクションまたは生トランザクションで使用する合計手数料の最大値 (%s 単位)。低すぎる値を指定すると巨大なトランザクションの作成ができなくなります (規定値: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong, %s will not work properly.</source>
         <translation>あなたのPCの日付と時刻が正しいことを確認して下さい！ もしあなたの時計が正しくなければ %s が正確に動作しません。</translation>
     </message>
     <message>
@@ -3134,7 +3167,7 @@
         <translation>スクリプト検証スレッドを設定 (%uから%dの間, 0 = 自動, &lt;0 = たくさんのコアを自由にしておく, 初期値: %d)</translation>
     </message>
     <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer&apos;s date and time being set incorrectly. Only rebuild the block database if you are sure that your computer&apos;s date and time are correct</source>
         <translation>ブロックのデータベースに未来の時刻のブロックが含まれています。これはおそらくお使いのコンピュータに設定されている日時が間違っていることを示しています。お使いのコンピュータの日時が本当に正しい場合にのみ、ブロックのデータベースの再構築を行ってください。</translation>
     </message>
     <message>
@@ -3194,8 +3227,8 @@
         <translation>ブロック作成オプション:</translation>
     </message>
     <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>-%s アドレス '%s' を解決できません</translation>
+        <source>Cannot resolve -%s address: &apos;%s&apos;</source>
+        <translation>-%s アドレス &apos;%s&apos; を解決できません</translation>
     </message>
     <message>
         <source>Chain selection options:</source>
@@ -3203,7 +3236,7 @@
     </message>
     <message>
         <source>Change index out of range</source>
-        <translation>おつりのインデックスが範囲外です</translation>
+        <translation>お釣りのインデックスが範囲外です</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3271,7 +3304,7 @@
         <translation>%s の読み込みに失敗しました: ウォレットの読み込みにはより新しいバージョンの %s が必要です</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
+        <source>Error loading %s: You can&apos;t disable HD on a already existing HD wallet</source>
         <translation>%s の読み込みエラー: HDウォレットが既に存在するため、HDウォレットを無効化できません</translation>
     </message>
     <message>
@@ -3303,16 +3336,16 @@
         <translation>初期化時の健全性チェックに失敗しました。%s を終了します。</translation>
     </message>
     <message>
-        <source>Invalid -onion address: '%s'</source>
-        <translation>無効な -onion アドレス：'%s'</translation>
+        <source>Invalid -onion address: &apos;%s&apos;</source>
+        <translation>無効な -onion アドレス：&apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>-%s=&lt;数量&gt; に対する不正な額: '%s'</translation>
+        <source>Invalid amount for -%s=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>-%s=&lt;数量&gt; に対する不正な額: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>不正な額 -fallbackfee=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>不正な額 -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
@@ -3467,8 +3500,8 @@
         <translation>paytxfee が設定されていなかった場合、平均して n ブロック以内にトランザクションが検証され始めるのに十分な手数料を含める (初期値: %u)</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>-maxtxfee=&lt;amount&gt; の数量の指定が不正です: '%s' (トランザクションが詰まってしまうのを防ぐため、少なくとも %s の最小中継手数料を指定しなければいけません)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>-maxtxfee=&lt;amount&gt; の数量の指定が不正です: &apos;%s&apos; (トランザクションが詰まってしまうのを防ぐため、少なくとも %s の最小中継手数料を指定しなければいけません)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
@@ -3527,20 +3560,20 @@
         <translation>情報</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>-paytxfee=&lt;amount&gt; に対する無効な数量です: '%s' (少なくとも %s でなければいけません)</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
+        <translation>-paytxfee=&lt;amount&gt; に対する無効な数量です: &apos;%s&apos; (少なくとも %s でなければいけません)</translation>
     </message>
     <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>-whitelist に対する無効なネットマスクです: '%s'</translation>
+        <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
+        <translation>-whitelist に対する無効なネットマスクです: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>最大で &lt;n&gt; 個の孤立したトランザクションをメモリの中に保持する (初期値: %u)</translation>
     </message>
     <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>-whitebind を用いてポートを指定する必要があります: '%s'</translation>
+        <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
+        <translation>-whitebind を用いてポートを指定する必要があります: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3723,7 +3756,7 @@
         <translation>送信転送量を与えられた目標値以下に維持するようにする (24時間あたり何MiBかで指定)。0 の場合は無制限 (初期値: %d)</translation>
     </message>
     <message>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>サポートされていない引数 -socks が見つかりました。SOCKSバージョンの設定はできないようになりました。SOCKS5プロキシのみがサポートされています。</translation>
     </message>
     <message>
@@ -3735,7 +3768,7 @@
         <translation>Tor 秘匿サービスを通し、別々の SOCKS5 プロキシを用いることでピアに到達する (初期値: %s)</translation>
     </message>
     <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <source>Warning: Unknown block versions being mined! It&apos;s possible unknown rules are in effect</source>
         <translation>警告: 未知のバージョンのブロックが採掘されました。未知のルールが導入された可能性があります</translation>
     </message>
     <message>
@@ -3767,8 +3800,8 @@
         <translation>デバッグ出力にIPアドレスを含める (初期値: %u)</translation>
     </message>
     <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>無効な -proxy アドレス: '%s'</translation>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation>無効な -proxy アドレス: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keypool ran out, please call keypoolrefill first</source>
@@ -3840,7 +3873,7 @@
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>トランザクション送信時に未検証のおつりを使用する (デフォルト: %u)</translation>
+        <translation>トランザクション送信時に未検証のお釣りを使用する (デフォルト: %u)</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
@@ -3875,8 +3908,8 @@
         <translation>トランザクションは最低ひとつの受取先が必要です</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet で指定された '%s' は未知のネットワークです</translation>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>-onlynet で指定された &apos;%s&apos; は未知のネットワークです</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

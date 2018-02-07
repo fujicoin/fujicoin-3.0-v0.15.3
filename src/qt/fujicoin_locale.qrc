@@ -52,7 +52,6 @@
         <file alias="id">locale/fujicoin_id.qm</file>
         <file alias="it_IT">locale/fujicoin_it_IT.qm</file>
         <file alias="it">locale/fujicoin_it.qm</file>
-        <file alias="ja_JP">locale/fujicoin_ja_JP.qm</file>
         <file alias="ja">locale/fujicoin_ja.qm</file>
         <file alias="ka">locale/fujicoin_ka.qm</file>
         <file alias="kk_KZ">locale/fujicoin_kk_KZ.qm</file>
