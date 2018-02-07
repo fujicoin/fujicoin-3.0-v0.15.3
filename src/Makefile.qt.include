@@ -59,7 +59,6 @@ QT_TS = \
   qt/locale/fujicoin_id.ts \
   qt/locale/fujicoin_it_IT.ts \
   qt/locale/fujicoin_it.ts \
-  qt/locale/fujicoin_ja_JP.ts \
   qt/locale/fujicoin_ja.ts \
   qt/locale/fujicoin_ka.ts \
   qt/locale/fujicoin_kk_KZ.ts \
