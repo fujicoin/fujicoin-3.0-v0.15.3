@@ -78,8 +78,8 @@ public:
         consensus.nSubsidyHalvingInterval = 210000; //fujicoin do not use
         consensus.BIP34Height = 0;
         consensus.BIP34Hash = uint256S("0xadb6d9cfd74075e7f91608add4bd2a2ea636f70856183086842667a1597714a0");
-        // consensus.BIP65Height = 0;
-        // consensus.BIP66Height = 0;
+        consensus.BIP65Height = 99999999;
+        consensus.BIP66Height = 99999999;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 1.4 * 24 * 60 * 60; //1.4 days
         consensus.nPowTargetSpacing = 1.0 * 60;
