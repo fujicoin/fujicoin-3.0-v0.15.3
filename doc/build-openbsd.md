@@ -78,6 +78,7 @@ make the change system-wide, change `datasize-cur` and `datasize-max` in
 
 ### Building Fujicoin Core
 
+Do not compile tests and bench.
 **Important**: use `gmake`, not `make`. The non-GNU `make` will exit with a horrible error.
 
 Preparation:
@@ -90,13 +91,13 @@ Make sure `BDB_PREFIX` is set to the appropriate path from the above steps.
 
 To configure with wallet:
 ```bash
-./configure --with-gui=no CC=egcc CXX=eg++ CPP=ecpp \
+./configure --with-gui=no CC=egcc CXX=eg++ CPP=ecpp --disable-tests --disable-bench --disable-dependency-tracking \
     BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include"
 ```
 
 To configure without wallet:
 ```bash
-./configure --disable-wallet --with-gui=no CC=egcc CXX=eg++ CPP=ecpp
+./configure --disable-wallet --with-gui=no CC=egcc CXX=eg++ CPP=ecpp --disable-tests --disable-bench --disable-dependency-tracking
 ```
 
 Build and run the tests:

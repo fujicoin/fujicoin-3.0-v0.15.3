@@ -34,12 +34,12 @@ Build Fujicoin Core
 
 2.  Build fujicoin-core:
 
+    Do not compile tests and bench.
     Configure and build the headless fujicoin binaries as well as the GUI (if Qt is found).
-
     You can disable the GUI build by passing `--without-gui` to configure.
 
         ./autogen.sh
-        ./configure
+        ./configure --disable-tests --disable-bench --disable-dependency-tracking
         make
 
 3.  It is recommended to build and run the unit tests:

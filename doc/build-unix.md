@@ -16,10 +16,11 @@ the usage of the absolute path.
 
 To Build
 ---------------------
+Do not compile tests and bench.
 
 ```bash
 ./autogen.sh
-./configure
+./configure --disable-tests --disable-bench --disable-dependency-tracking
 make
 make install # optional
 ```
