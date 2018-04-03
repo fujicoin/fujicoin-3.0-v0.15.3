@@ -17,7 +17,7 @@ const struct VBDeploymentInfo VersionBitsDeploymentInfo[Consensus::MAX_VERSION_B
     },
     {
         /*.name =*/ "segwit",
-        /*.gbt_force =*/ false,
+        /*.gbt_force =*/ true,
     }
 };
 
